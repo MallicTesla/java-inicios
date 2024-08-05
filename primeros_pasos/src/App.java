@@ -69,7 +69,7 @@ public class App {
         int primerNumero = 2;
         int segundoNumero = 3;
         // así se llama una función donde (App) es la clase principal
-        App MiApp = new App();
+        Ahorcado MiApp = new Ahorcado();
         // y luego se hacen instancias de esa función
         MiApp.miFuncion (primerNumero, segundoNumero);
 
