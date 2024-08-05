@@ -47,11 +47,8 @@ public class Ahorcado {
             }
         }
 
-        System.out.println("Te has quedado sin intentos GAME OVER");
+        System.out.println("GAME OVER");
         escaner.close();
-
-
-
 
     }
 }
