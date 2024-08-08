@@ -41,14 +41,36 @@ public class App {
 
         // ----------------------------------------------------------------------------------------------------------------------------------------
         // cuando el constructor tienen propiedades privadas
-        Persona persona5 = new Persona("Nicolas", "Cage", 60);
+        // Persona persona5 = new Persona("Nicolas", "Cage", 60);
 
-        persona5.setNombre("Pablo");
-        persona5.setApellido("Tesla");
+        // persona5.setNombre("Pablo");
+        // persona5.setApellido("Tesla");
 
 
-        System.out.println(persona5.darNombreCompleto()
-        + " tiene " + persona5.getEdad() + " años");
+        // System.out.println(persona5.darNombreCompleto()
+        // + " tiene " + persona5.getEdad() + " años");
+
+
+        // ----------------------------------------------------------------------------------------------------------------------------------------
+        Animal animal = new Animal("maquina", 30);
+        Gato gato = new Gato("Kirara", 10);
+        Perro perro = new Perro("Simurdiera", 15);
+
+        System.out.println("El animal llamado " + animal.nombre + " hace :");
+        System.out.println(animal.haceSonido());
+
+        System.out.println("El gato llamado " + gato.nombre + " hace :");
+        System.out.println(gato.haceSonido());
+
+        System.out.println("El perro llamado " + perro.nombre + " hace :");
+        System.out.println(perro.haceSonido());
+
+        // para acceder a un método de clase static se tiene que acceder desde la clase y no desde la instancia
+        System.out.println("Total de animales creados : " + Animal.getContadorAnimales());
+
+
+
+
 
 
 
