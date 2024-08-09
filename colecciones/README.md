@@ -1,18 +1,33 @@
-## Getting Started
+### Colecciones en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+#### `List`
+- **Permite elementos duplicados y mantiene el orden de inserción**.
+- **Implementaciones comunes**:
+  - **`ArrayList`:** 
+    - Más eficiente para los métodos `get` y `set`, debido al acceso directo a los elementos.
+  - **`LinkedList`:** 
+    - Más eficiente para agregar o eliminar elementos en el inicio o en medio de la lista.
+    - Menos eficiente para `get` y `set` debido a su estructura de nodos enlazados.
+  - **`Vector`:** 
+    - Es una clase sincronizada, segura para uso en entornos multihilo.
+    - Menos utilizada en aplicaciones modernas debido a la disponibilidad de otras colecciones sincronizadas más eficientes.
 
-## Folder Structure
+#### `Set`
+- **No permite elementos duplicados**.
+- **Implementaciones comunes**:
+  - **`HashSet`:** 
+    - No garantiza el mantenimiento del orden de los elementos.
+  - **`TreeSet`:** 
+    - Mantiene los elementos ordenados según su orden natural (alfabético para cadenas) o utilizando un comparador personalizado.
+  - **`LinkedHashSet`:** 
+    - Mantiene el orden en el que se agregan los elementos.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### `Map`
+- **Asocia claves únicas con valores, formando pares clave-valor**.
+- **Implementaciones comunes**:
+  - **`HashMap`:** 
+    - No garantiza el mantenimiento del orden de los pares clave-valor.
+  - **`TreeMap`:** 
+    - Ordena los pares clave-valor según el orden natural de las claves o utilizando un comparador personalizado.
+  - **`LinkedHashMap`:** 
+    - Mantiene el orden en el que se agregan los pares clave-valor.
