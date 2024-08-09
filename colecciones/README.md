@@ -31,3 +31,8 @@
     - Ordena los pares clave-valor según el orden natural de las claves o utilizando un comparador personalizado.
   - **`LinkedHashMap`:** 
     - Mantiene el orden en el que se agregan los pares clave-valor.
+
+![colección](https://github.com/MallicTesla/java-inicios/blob/main/colecciones/imagenes/image01.png)
+![SET](https://github.com/MallicTesla/java-inicios/blob/main/colecciones/imagenes/image02.png)
+![LIST](https://github.com/MallicTesla/java-inicios/blob/main/colecciones/imagenes/image03.png)
+![MAP](https://github.com/MallicTesla/java-inicios/blob/main/colecciones/imagenes/image04.png)
